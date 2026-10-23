@@ -2,3 +2,6 @@ var a = 10;
 var b = 20;
 var sum = a + b;
 console.log(`Added value is ${sum}`);
+
+
+console.log("Hello World");

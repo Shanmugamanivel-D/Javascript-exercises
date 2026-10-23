@@ -1,0 +1,62 @@
+<html>
+
+<h1 id="title"> Hello World </h1>
+
+
+<button onclick="document.getElementById('title').innerHTML = 'BYE World'"> Change </button>
+
+
+
+<h1 id="title2"> Hello World 2" </h1>
+
+<button onclick = "change2()"> Change2 </button>
+
+<script>
+
+var t2 = document.getElementById('title2');
+console.log(t2.textContent);
+
+
+
+function change2()
+{
+t2.textContent = "BYE World 2";
+}
+
+</script>
+
+
+
+
+
+
+
+<h2> Calculator </h2>
+
+<input id="num1">
+
+<input id="num2">
+
+<button onclick="calculate()"> calculate </button>
+
+<p id="result"> Result: </p>
+
+<script>
+    var n1 = document.getElementById('num1');
+    var n2 = document.getElementById('num2');
+    var result = document.getElementById('result');
+    
+    
+function calculate()
+
+{
+    var n = (n1.value + n2.value);
+    result.textContent = n;
+}
+
+
+
+
+</script>
+
+</html>
