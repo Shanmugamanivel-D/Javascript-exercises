@@ -81,3 +81,56 @@ for (let i=1; i<=20; i++)
         console.log(i);
     }
 }
+
+
+// Write a JavaScript program using let to store a = 10 and b = 5. 
+// Print their sum, difference, and multiplication.
+
+
+let a = 10;
+let b = 5;
+
+let sum = a + b;
+let difference = a - b;
+let multiplication = a * b;
+
+console.log(`Sum: ${sum}`);
+console.log(`Difference: ${difference}`);
+console.log(`Multiplication: ${multiplication}`);
+
+
+// Write a program to check a student's mark.
+// - 90 or above → "Grade A"
+// - 75 to 89 → "Grade B"
+// - 50 to 74 → "Grade C"
+// - Below 50 → "Fail"
+// Use if, else if, and else. Test with mark = 82.
+
+let studentmark = 85;
+
+if (studentmark >= 90)
+{
+    console.log("Student grade is Grade A");
+}
+else if (studentmark >=75 && studentmark <=89)
+{
+    console.log("Student grade is Grade B");
+}
+else if (studentmark >= 50 && studentmark <=74)
+{
+    console.log("Student grade is Grade C");
+}
+else 
+{ 
+    console.log("Student grade is fail");
+}
+
+// Write a program using a for loop to print the multiplication table of 5, from 5 × 1 to 5 × 10.
+
+for (i = 1; i <= 10; i++)
+{
+    console.log(`5 * ${i} = ${5 * i}`);
+}
+
+
+// DOM exercise: change the message in web.html to "Welcome to JavaScript!".
