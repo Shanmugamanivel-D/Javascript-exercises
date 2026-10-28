@@ -127,10 +127,95 @@ else
 
 // Write a program using a for loop to print the multiplication table of 5, from 5 × 1 to 5 × 10.
 
-for (i = 1; i <= 10; i++)
+let num5 = 5;
+
+for (let i = 1; i <= 10; i++)
 {
-    console.log(`5 * ${i} = ${5 * i}`);
+    console.log(`${num5} * ${i} = ${num5 * i}`);
 }
 
 
 // DOM exercise: change the message in web.html to "Welcome to JavaScript!".
+
+
+//<html>
+
+//<p id="message">Hello</p>
+
+//<button type="button" onclick="changetext()">Click me</button>
+
+//<script>
+//function changetext()
+//{
+//    document.getElementById("message").textContent = "Welcome to JavaScript!";
+//}
+//</script>
+
+// Write a program to store your name, age, and student status in variables.
+
+// Print all three values using console.log().
+
+// Example: name = "Shan", age = 22, student status = true.
+
+let name = "Shan";
+let age = 22;
+let studentstatus = true;
+
+console.log(`Name: ${name}`);
+console.log(`Age: ${age}`);
+console.log(`Student Status: ${studentstatus}`);
+
+
+// Write a program to perform arithmetic operations on a = 20 and b = 6.
+
+// Print the addition, subtraction, multiplication, division, and remainder.
+
+let a = 20;
+let b = 6;
+
+let addition = a + b;
+let subtraction = a - b;
+let multiplication = a * b;
+let division = a / b;
+let remainder = a % b;
+
+
+console.log(`Addition: ${addition}`);
+console.log(`Subtraction: ${subtraction}`);
+console.log(`Multiplication: ${multiplication}`);
+console.log(`Division: ${division}`);
+console.log(`Remainder: ${remainder}`);
+
+
+// Write a program to check whether a number is even or odd.
+
+// Use if-else and test with number = 17.
+
+let number = 17;
+
+if (number % 2 === 0)
+{
+    console.log("Even number");
+}
+else 
+{
+    console.log("Odd number");
+}
+
+// Write a program using a for loop to print numbers from 1 to 20.
+
+for (let i = 1; i <= 20; i++)
+{
+    console.log(i);
+}
+
+
+// Write a program to print the multiplication table of a given number using a for loop.
+
+let num7 = 7;
+
+for (let n = 1; n <= 10; n++)
+{
+    console.log(`${num7} * ${n} = ${num7 * n}`);
+}
+
