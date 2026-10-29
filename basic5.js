@@ -219,3 +219,19 @@ for (let n = 1; n <= 10; n++)
     console.log(`${num7} * ${n} = ${num7 * n}`);
 }
 
+// Write a JavaScript program to print all even numbers from 1 to 50.
+
+// Requirements:
+// - Use a for loop.
+// - Use an if statement.
+// - Use the remainder operator (%).
+// - Print only even numbers.
+
+for (let z = 1; z <= 50; z++)
+
+    {
+        if (z%2 === 0)
+        {
+            console.log(z);
+        }
+    }
