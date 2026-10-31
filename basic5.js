@@ -235,3 +235,21 @@ for (let z = 1; z <= 50; z++)
             console.log(z);
         }
     }
+
+// Write a JavaScript program to calculate the sum of all numbers from 1 to 10.
+
+// Requirements:
+// 1. Use a for loop.
+// 2. Use a variable to store the running total.
+// 3. Print the final sum.
+// Hint: Start with let sum = 0;
+
+{
+    let sum = 0;
+
+    for (let i = 1; i <= 10; i++) {
+        sum += i;
+    }
+
+    console.log(sum);
+}
