@@ -247,9 +247,24 @@ for (let z = 1; z <= 50; z++)
 {
     let sum = 0;
 
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i<=10; i++)
         sum += i;
-    }
 
-    console.log(sum);
+    console.log(`The Sum of all numbers from 1 to 10 is ${sum}`);
+    
+}
+
+// Write a JavaScript program to print the multiplication table of 5 in reverse order, from 10 to 1.
+
+// Requirements:
+// 1. Use a for loop.
+// 2. Start from 10 and decrease to 1.
+
+{
+    let num5 = 5;
+
+    for (let i=10; i >=1; i--)
+    {
+        console.log(`${num5} * ${i} = ${num5 * i}`);
+    }
 }
